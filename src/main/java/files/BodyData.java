@@ -1,5 +1,7 @@
 package files;
 
+import java.security.PublicKey;
+
 public class BodyData {
     public static String addPlaceBody(){
         return "{\n" +
@@ -25,6 +27,14 @@ public class BodyData {
                 "\"place_id\":\""+PlaceId+"\", \n" +
                 "\"address\":\""+newAddres+"\", \n" +
                 "\"key\":\"qaclick123\" \n" +
+                "} ";
+    }
+    public static String addBookBody(String isbn,String aisle){
+        return"{ \n" +
+                "\"name\":\"Learn Appium Automation with Java\", \n" +
+                "\"isbn\":\""+isbn+"\", \n" +
+                "\"aisle\":\""+aisle+"\", \n" +
+                "\"author\":\"John foe\" \n" +
                 "} ";
     }
 }

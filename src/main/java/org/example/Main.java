@@ -19,8 +19,9 @@ public class Main {
 
         //Add place -> Update place with new Addres -> Get place to validate if new addres is present in response
 
-        //Add Place
         RestAssured.baseURI="https://rahulshettyacademy.com";
+
+        //Add Place
         String response=given().log().all().queryParam("key","qaclick123").header("Content-Type","application/json")
                 .body(BodyData.addPlaceBody())
                 .when().post("/maps/api/place/add/json").then().assertThat().statusCode(200)
@@ -37,7 +38,6 @@ public class Main {
                 .body("msg",equalTo("Address successfully updated"));
 
         //Get Place
-
         String getPlaceResponse= given().log().all().queryParam("key","qaclick123").queryParam("place_id",PlaceId)
                 .when().get("/maps/api/place/get/json").then().assertThat().log().all().statusCode(200).extract().response().asString();
 
