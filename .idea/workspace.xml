@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97e8d059-5430-4922-8fc9-a2c750566365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EcommersPOJO/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EcommersPOJO/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EcommersEnd2EndTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EcommersPOJO/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EcommersPOJO/Orders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EcommersEnd2EndTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EcommersEnd2EndTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Amrkhaled5"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Amrkhaled5/RestAssuredPractice.git",
+    "accountId": "c0026b45-9489-4cf4-88b8-8ba3cf699b40"
+  }
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -33,7 +44,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2zuEV0ak4peOdV8GlER0qsD5sRx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -55,13 +66,16 @@
     "RunOnceActivity.DeprecatedChatLlmMigration": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.DynamicJson.executor": "Run",
     "TestNG.EcommersEnd2EndTests.executor": "Run",
     "TestNG.JiraAPISTest.executor": "Run",
     "TestNG.OAuthWithPOJO.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Intern/RestAssuredPractice",
     "onboarding.tips.debug.path": "E:/Consepts/RestAssuredTest/src/main/java/org/example/Main.java"
   }
 }]]></component>
