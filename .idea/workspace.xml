@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e8d059-5430-4922-8fc9-a2c750566365" name="Changes" comment="Add new features POJO Request&amp;Response Specification oauth Authantication">
+    <list default="true" id="97e8d059-5430-4922-8fc9-a2c750566365" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/EcommersPOJO/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EcommersPOJO/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EcommersEnd2EndTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
