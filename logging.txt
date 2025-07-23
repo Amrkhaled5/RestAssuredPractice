@@ -1,0 +1,96 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": "-38.43324",
+        "lng": "60.43324"
+    },
+    "accuracy": 50,
+    "name": "AmrK",
+    "phoneNumber": "0123123123",
+    "addres": "World cross center",
+    "types": [
+        "shop1",
+        "shop2",
+        "shop3"
+    ],
+    "website": "http://google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Tue, 22 Jul 2025 14:09:32 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "223f8db2b0ae6433a8cb4d6c396b5a8a",
+    "scope": "APP",
+    "reference": "fabcbb8413bbead8af61e429c1ef9276fabcbb8413bbead8af61e429c1ef9276",
+    "id": "fabcbb8413bbead8af61e429c1ef9276"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": "-38.43324",
+        "lng": "60.43324"
+    },
+    "accuracy": 50,
+    "name": "zead",
+    "phoneNumber": "0123123123",
+    "addres": "EGYPT,GIAE",
+    "types": [
+        "shop1",
+        "shop2",
+        "shop3"
+    ],
+    "website": "http://google.com",
+    "language": "Arabic"
+}
+HTTP/1.1 200 OK
+Date: Tue, 22 Jul 2025 14:09:33 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "38888938e2947a4d730481e36219764f",
+    "scope": "APP",
+    "reference": "0f7c4bb3a6a9bf6f1edf8e6d8a54689f0f7c4bb3a6a9bf6f1edf8e6d8a54689f",
+    "id": "0f7c4bb3a6a9bf6f1edf8e6d8a54689f"
+}
